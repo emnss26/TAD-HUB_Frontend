@@ -1,0 +1,10 @@
+.slick-slide > div {
+  padding: 0 10px; /* Espaciado entre los elementos */
+  box-sizing: border-box; /* Asegura que el padding no desborde */
+}
+
+
+body {
+  padding-top: 3rem; 
+}
+
