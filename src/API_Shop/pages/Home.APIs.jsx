@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
-import { FaStar, FaShoppingCart } from 'react-icons/fa'; 
+import { FaShoppingCart } from 'react-icons/fa'; 
 import Slider from 'react-slick';
 import { useCart} from '../../context/cart.context'
 

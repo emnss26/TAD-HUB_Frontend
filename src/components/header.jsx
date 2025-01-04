@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaUser, FaShoppingCart } from "react-icons/fa"; 
 import { useAuth } from '../../src/context/auth.context';

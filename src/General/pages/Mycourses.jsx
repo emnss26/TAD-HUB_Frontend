@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
-import {Link, useNavigate } from "react-router-dom";
+import {Link} from "react-router-dom";
 import { db } from '../../firebaseConfig';
 import { collection, getDocs, query, orderBy } from 'firebase/firestore';
 import { useAuth } from '../../context/auth.context';
